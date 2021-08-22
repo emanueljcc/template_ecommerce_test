@@ -1,0 +1,30 @@
+.spin {
+  background: #f2f2f2;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+
+  span {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 10px;
+    color: #b6b6b6;
+
+    &:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+  }
+
+  input {
+    width: 50px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    font-size: 12px;
+  }
+}

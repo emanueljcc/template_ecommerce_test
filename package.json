@@ -1,0 +1,19 @@
+{
+    "name": "template_ecommerce_test",
+    "version": "1.0.0",
+    "description": "ecommerce test",
+    "main": "index.html",
+    "scripts": {
+        "css": "node-sass --include-path scss sass/index.scss css/styles.css",
+        "watch": "nodemon -e scss -x 'npm run css'",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "emanueljcc",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "font-awesome": "^4.7.0",
+        "node-sass": "^6.0.1",
+        "nodemon": "^2.0.12"
+    }
+}
